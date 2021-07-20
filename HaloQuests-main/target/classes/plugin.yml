@@ -1,0 +1,20 @@
+name: HaloQuests
+version: 1.0
+main: software.tims.haloquests.Main
+prefix: HQ
+authors: [TimmyTime, JJ9_Playz]
+description: this does a thing
+website: tims.software
+commands:
+  quests:
+    description: Opens Quests GUI
+    usage: /quests
+    permission: hq.commands.quests
+  nextPres:
+    description: Tells Next Prestige
+    usage: /nextPres
+    permission: hq.commands.nextpres
+  blocksBroken:
+    description: Tells amount of Blocks Broken
+    usage: /blocksBroken
+    permission: hq.commands.blocksbroken
